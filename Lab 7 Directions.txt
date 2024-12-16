@@ -1,0 +1,26 @@
+Use the attached Lab 7  to complete this lab. The attached image shows a map of Tri-C's western campus. In the already created main() method in Main.java:
+
+- Add vertices for all of the labeled buildings:
+    1. Liberal Arts
+    2. Student Services
+    3. Health Careers & Sciences
+    4. Health Technologies Center
+    5. Recreation Center
+    6. Technology Learning Center
+    7. Buiness & Technology
+    8. Theatre
+
+- Using the map as a guide, add edges for each of the areas that areas that are connected (in terms of walking from one area to another). So, for example, Liberal Arts connects directly to Student Services but not the Technology Learning Center. 
+
+- Set the starting vertice to Business & Technology.
+
+- Call printPath() to display the paths from Business & Technology to:
+    - Health Technologies Center
+    - Student Services
+    - Recreation Center
+
+- Call printTree() to print the entire tree.
+
+Notes:
+Leave the provided code! You just need to fill-in the missing pieces.
+Use the code in Chapter 28 as a guide. Also, look at UnweightedGraph.java, it has the implementation for the methods that we're calling in the main() method.
